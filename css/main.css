@@ -22,6 +22,7 @@ body {
   margin: 0;
   background-color: #e2e2e2;
   font-size: 1.5rem;
+  position: relative;
 }
 
 .body-content {
@@ -45,9 +46,13 @@ p {
   }
 
   .body-content {
-    opacity: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .3);
     border-radius: 3px;
     color: white;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    width: 30em;
   }
 
   @media only screen and (min-width: 60em) {
